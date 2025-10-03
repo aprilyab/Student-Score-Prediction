@@ -27,7 +27,7 @@ x_test=scaler.transform(x_test.reshape(-1,1))
 model=LinearRegression()
 model.fit(x_train,y_train)
 
-# make prediction from the model by using x_test
+# make prediction from the model by using x_testPrimitive Data Structures:
 y_pre=model.predict(x_test.reshape())
 
 # save the model for fature uage

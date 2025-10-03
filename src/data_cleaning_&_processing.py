@@ -30,3 +30,6 @@ df=df[(df['Exam_Score']>=0)  &  (df['Exam_Score']<=100) ]
 print(df)
 
 df.to_csv(r"C:\Users\user\Desktop\Elavvo ML Internship\Student-Score-Prediction\data\processed\cleaned_Student_Performance_Factors.csv")
+
+print(f"min value of the 'Exam_Score' {df['Hours_Studied'].min()} ")
+print(f"max value of the 'Exam_Score' {df['Hours_Studied'].max()} ")

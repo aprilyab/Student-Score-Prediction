@@ -38,7 +38,7 @@ model = joblib.load("outputs/models/Student-Performance-Predictor-Model")
 
 
 st.title("🎓 Student Performance Predictor")
-st.image(r"C:\Users\user\Desktop\Elavvo ML Internship\Student-Score-Prediction\data\student_performance.png",use_container_width=True)
+st.image("data\student_performance.png",use_container_width=True)
 st.write("This app predicts a student's exam score based on their **study time** (hours per week).")
 
 # Sidebar inputs

@@ -12,9 +12,7 @@ env/
 .venv/
 .env/
 
-# Data files
-data/
-*.csv
+
 
 # IDE files
 .vscode/

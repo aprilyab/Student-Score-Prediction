@@ -38,7 +38,7 @@ model = joblib.load("outputs/models/Student-Performance-Predictor-Model")
 
 
 st.title("🎓 Student Performance Predictor")
-st.image("data/raw/student_performance.png",width="strech")
+st.image("data/raw/student_performance.png",width="stretch")
 st.write("This app predicts a student's exam score based on their **study time** (hours per week).")
 
 # Sidebar inputs

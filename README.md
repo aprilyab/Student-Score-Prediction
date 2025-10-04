@@ -8,6 +8,8 @@ This project demonstrates the **end-to-end workflow of a predictive modeling pip
 
 ---
 
+**Live App:** [Student Score Predictor](https://student-score-prediction-wxifwpnjbdrgujsffwd9p7.streamlit.app/)
+
 ## Table of Contents
 
 - [Student Score Prediction Project](#student-score-prediction-project)
